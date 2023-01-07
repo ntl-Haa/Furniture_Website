@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+}
+
+#background-logo{
+    height: 100px;
+    width: 1920px;
+    background-color: #106f85;
+}
+#white-fist{
+    height: 50px;
+    width: 1920px;
+    background-color: white;
+}
+#navi{
+    position: absolute;
+    margin-left: 250px;
+}
+#navi li{
+    display: inline-block;
+}
+#navi li a {
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid rgb(0, 0, 0, 0.1);
+    padding: 0 20px 0 20px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.text-logo {
+    position: absolute;
+    margin: -30px 0 0 1602px;
+}
+.text-logo p{
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: -50px 0 0 0;
+    font-size: 15px;
+}
+#navi-2{
+    position: absolute;
+    margin: 0 0 0 1620px;
+}
+#navi-2 p{
+    display: inline-block;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    position: absolute;
+    margin: 5px 0 0 1250px;
+    width: 400px;
+    height: 40px;
+  }
+  /* Search 3 - zoom in looking glass */
+  .container-3{
+    width: 400px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-3 input#search{
+    width: 300px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #106f85;
+    font-size: 10pt;
+    color: #ffffff;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    color: #fff;
+    
+  }
+  
+  .container-3 input#search::-webkit-input-placeholder {
+     color: #65737e;
+  }
+  .container-3 input#search:-moz-placeholder { /* Firefox 18- */
+     color: #65737e;  
+  }
+  .container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+     color: #65737e;  
+  }
+  .container-3 input#search:-ms-input-placeholder {  
+     color: #65737e;  
+  }
+  
+  .container-3 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: -7px;
+    z-index: 1;
+    color: #4f5b66;
+    
+      -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+    
+  }
+  
+    /* ANIMATION EFFECTS */
+      .container-3 input#search:focus, .container-3 input#search:active{
+      outline:none; 
+      }
+    .container-3:hover .icon{
+        font-size: 15px;
+        margin-top: -7px;
+      color: #000000;
+      
+      -webkit-transform:scale(1.5); /* Safari and Chrome */
+      -moz-transform:scale(1.5); /* Firefox */
+      -ms-transform:scale(1.5); /* IE 9 */
+      -o-transform:scale(1.5); /* Opera */
+       transform:scale(1.5);
+    }
+
+    /* --------------- */
+    #text-banner{
+        position: absolute;
+        height: 200px;
+        width: 600px;
+        z-index: 3;
+        margin: -400px 0 0 660px;
+    }
+    #text-banner p{
+        color: white;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    /* <!-- --------------------Phan so 2------------- --> */
+    #hangso1 .text-fist{
+      display: inline-block;
+    }
+    .text-fist {
+      height: 50px;
+      width: 300px;
+      margin-top: 20px;
+    }
+    .text-fist img{
+      width: 45px;
+      height: 45px;
+    }
+    .text-fist p{
+      position: absolute;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .textfist-1{
+      margin: -47px 0 0 55px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffb326;
+    }
+    .textfist-2{
+      margin: -20px 0 0 55px;
+      font-size: 14px;
+      opacity: 0.8;
+
+    }
+
+    #hangso2{
+      margin-left: 398px;
+      margin-top: -10px;
+    }
+    #hangso2 img{
+      height: 404px;
+      width: 270px;
+      margin: 0px 10px 0 0;
+    }
+    /* ----------------------Phan sp noi bat-------- */
+
+    #hangso3{
+      margin: 20px 0 0 398px;
+      width: 1117px;
+      height: 730px;
+      border: solid 3px black;
+    }
+    #text-hangso3{
+      margin: 250px 0 0 50px;
+      width: 380px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      line-height: 25px;
+    }
+    #img-hangso3{
+      margin: -380px 0 0 500px;
+    }
+    #img-hangso3 img{
+      height: 215px;
+      width: 215px;
+      margin-right: 90px;
+    }
+    #img-hangso4 {
+      margin: 140px 0 0 500px;
+    }
+    #img-hangso4 img{
+      height: 215px;
+      width: 215px;
+      margin-right: 90px;
+    }
+    .text-img-hangso3{
+      position: absolute;
+      margin: -120px 0 0 490px;
+    }
+    .text-img-hangso4{
+      position: absolute;
+      margin: 230px 0 0 490px;
+    }
+    #btn-hangso3{
+      margin-top: 50px;
+      width: 250px;
+      height: 50px;
+      font-size: 20px;
+      background-color: #ffb326;
+      border: none;
+      color: white;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      position: absolute;
+      margin-left: -130px;
+    }
+
+    /* <!-- --------------------Phan so 3------------- --> */
+    #list-livinngroom {
+      margin: -630px 0 0 360px;
+      position: absolute;
+    }
+    #list-livinngroom li{
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      list-style: none;
+      height: 35px;
+      padding-top: 17px;
+      font-size: 13px;
+    }
+    #list-livinngroom li a{
+      color: rgb(88, 88, 88);
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+    .list-bottom{
+      border-bottom: rgb(0, 0, 0, 0.1) solid 1px;
+    }
+
+    #btn-livingroom{
+      margin: -600px 0 0 730px;
+    }
+    #btn-livingroom button{
+      height: 35px;
+      width: 110px;
+      border-radius: 20px;
+      border: none;
+      background-color: white;
+      margin-right: 10px;
+      z-index: 13;
+      position: relative;
+    }
+    #img-livingroom{
+      position: absolute;
+      margin:40px 0 0 730px;
+    }
+    .img-lvr{
+      z-index: 11;
+      position: relative;
+      display: inline-block;
+      width: 250px;
+      height: 400px;
+      margin-right: 18px;
+    }
+    .img-lvr img{
+      height: 250px;
+      width: 250px;
+      border-radius: 10px;
+      border: 1px #ffb326 solid;
+    }
+    .img-lvr p{
+      color: rgb(88, 88, 88);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 550;
+      font-size: 15px
+    }
+    .img-lvr .text-lvr{
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: -10px;
+    }
+    .sale{
+      position: absolute;
+      height: 30px;
+      width: 55px;
+      background-color: rgb(255, 90, 90);
+      border-radius: 5px;
+      margin: -390px 0 0 475px;
+      z-index: 12;
+    }
+
+    /* -----------MORE--------- */
+
+    #more img{
+      border: white 10px solid; 
+      margin-right: -15px;
+      border-radius: 5px;
+    }
+    /* ----------------- */
+    #deal-shock{
+      margin: -20px 0 0 400px;
+    }
+    .shock{
+      margin-top: 50px;
+      width: 250px;
+      display: inline-block;
+      margin-right: 37px;
+    }
+    .shock img{
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+      border: 1px solid #ffb326;
+    }
+    .shock .sale{
+      position: absolute;
+      height: 30px;
+      width: 55px;
+      background-color: rgb(255, 90, 90);
+      border-radius: 5px;
+      margin: -325px 0 0 205px;
+      z-index: 12;
+    }
+    .shock p{
+      color: rgb(88, 88, 88);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 550;
+      font-size: 15px
+    }
+    .shock .text-shock{
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: -10px;
+    }
+    /* -------------------------Phan so 6 ------- */
+    #bthouse{
+      margin-top: 30px;
+    }
+    #bthouse .bth{
+      display: inline-block;
+      margin-top: 35px;
+      margin-left: 10px;
+    }
+    .bth img{
+      height: 204.41;
+      width: 356.6666px;
+      border-radius: 5px;
+    }
+    .bth p{
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.5px;
+      width: 360px;
+      line-height: 25px;
+      margin-top: -10px;
+      margin-left: 5px;
+    }
+ /* -------------------------Phan so 7 ------- */
+    #last{
+      margin-top: 60px;
+      height: 420px;
+      width: 1920px;
+      background-color: rgb(25, 25, 25);;
+  }
+  #last > div {
+      display: inline-block;
+  }
+  #last > div >p{
+      color: white;
+  }
+  
+  #last-text-1{
+      margin: 50px 0 0 300px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #last-text-4 {
+      position: absolute;
+      margin-top: 50px;
+      font-family: Arial, Helvetica, sans-serif
+  }
+  #last-text-4 >i{
+      font-size: 30px;
+      margin-right: 10px;
+  }
+
+  /* <!-- --------------------Phan so 10------------- --> */
+  #event{
+    margin-top: 30px;
+    margin-left: 400px;
+  }
+  #event img{
+    margin-top: 30px;
+    margin-right: 10px;
+   height: 95px;
+   width: 177.08px;
+   border-radius: 5px;
+  }
+  
